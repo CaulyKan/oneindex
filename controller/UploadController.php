@@ -188,5 +188,8 @@ class UploadController{
 		//var_dump($resp);
 	}
 
+	function offline_download(){
+		return view::load('offline_download');
+	}
 	
 }

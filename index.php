@@ -28,6 +28,7 @@ route::group(function(){
 	route::any('/admin/images','AdminController@images');
 
 	route::any('/admin/upload','UploadController@index');
+	route::any('/admin/offline_download','UploadController@offline_download');
 	//守护进程
 	route::any('/admin/upload/run','UploadController@run');
 	//上传进程

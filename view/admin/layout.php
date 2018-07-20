@@ -45,6 +45,11 @@
       <div class="mdui-list-item-content">上传管理</div>
     </a>
 
+    <a href="<?php echo $root?>?/admin/offline_download" class="mdui-list-item">
+      <i class="mdui-list-item-icon mdui-icon material-icons">&#xe2c6;</i>
+      <div class="mdui-list-item-content">离线下载</div>
+    </a>
+
     <a href="<?php echo $root?>?/admin/setpass" class="mdui-list-item">
       <i class="mdui-list-item-icon mdui-icon material-icons">&#xe88d;</i>
       <div class="mdui-list-item-content">密码修改</div>
